@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# 待办事项列表应用
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一个简单的待办事项列表管理应用，支持添加、删除、标记完成和筛选任务。
 
-## Available Scripts
+## ✨ 功能特性
 
-In the project directory, you can run:
+- ✅ ​**任务管理**​
+  - 添加新任务（支持回车键提交）
+  - 标记任务完成/未完成状态
+  - 删除任务（带淡出动画效果）
+  
+- 🔍 ​**任务筛选**​
+  - 查看全部任务
+  - 仅显示未完成任务
+  - 仅显示已完成任务
 
-### `npm start`
+- 💾 ​**数据持久化**​
+  - 使用localStorage自动保存任务
+  - 刷新浏览器后数据不丢失
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 🎨 ​**用户友好界面**​
+  - 简洁直观的设计
+  - 响应式布局（适配手机和电脑）
+  - 平滑的交互动画
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ 技术栈
 
-### `npm test`
+- ​**前端框架**: React 18 + TypeScript
+- ​**样式方案**: Tailwind CSS
+- ​**构建工具**: Vite
+- ​**代码质量**: ESLint + Prettier
+- ​**测试工具**: Jest (单元测试)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 快速开始
 
-### `npm run build`
+### 前置要求
+- Node.js 16+ 
+- npm 8+ 或 yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 安装步骤
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. 克隆仓库：
+   ```bash
+   git clone  https://github.com/mountainyldc/todo-app.git
+   cd todo-app
+2.  安装依赖： npm install
+3.  启动开发服务器
+4.  打开浏览器访问
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
